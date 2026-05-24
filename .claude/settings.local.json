@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.youtube.com)",
+      "Bash(conda --version)",
+      "Bash(conda search *)",
+      "Bash(conda create *)",
+      "Bash(CONDA_OVERRIDE_OSX=11.0 conda create *)",
+      "Bash(conda run *)",
+      "Bash(CONDA_OVERRIDE_OSX=11.0 conda search pytorch -c pytorch)",
+      "Bash(CONDA_OVERRIDE_OSX=11.0 conda env remove -n llm_agent_theory -y)"
+    ]
+  }
+}
